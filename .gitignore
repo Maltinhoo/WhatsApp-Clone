@@ -31,8 +31,9 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
-ios/
-macos/
+
+/ios/
+/macos/
 
 
 # Web related
