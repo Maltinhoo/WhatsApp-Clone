@@ -44,6 +44,7 @@ ios/Runner/GoogleService-Info.plist
 macos/
 macos/Runner/GoogleService-Info.plist
 
+*.plist
 
 # Web related
 lib/generated_plugin_registrant.dart
