@@ -32,8 +32,15 @@ migrate_working_dir/
 .pub/
 /build/
 
-/ios/
-/macos/
+#ios specific
+ios/.generated/
+ios/Podfile*
+ios/Flutter/Debug.xcconfig
+ios/Flutter/Release.xcconfig
+ios/Runner.xcworkspace/contents.xcworkspacedata
+ios/Runner/
+
+macos/
 
 
 # Web related
