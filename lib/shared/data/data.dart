@@ -12,7 +12,7 @@ class Data {
     ),
     Info(
       name: 'Vini Malvadeza',
-      message: 'kkkk para de resenha',
+      message: 'kkkk',
       time: '9:25 pm',
       profilePic:
           'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf5785763e9d42397/616f42efc32cb610f00e867a/e685bc458674ac6e96e12fb8e57c84170713a4de.jpg',
@@ -35,8 +35,7 @@ class Data {
       name: 'Ex',
       message: 'Me atende..',
       time: '6:06 pm',
-      profilePic:
-          'https://pbs.twimg.com/profile_images/1419974913260232732/Cy_CUavB.jpg',
+      profilePic: '',
     ),
     Info(
       name: 'Mr Beast',
@@ -57,78 +56,108 @@ class Data {
   static List<Message> messages = [
     Message(
       isMe: false,
-      text: "Fala ae o cu de fossa",
+      text: "Hey, how are you doing?",
       time: "10:00 am",
     ),
     Message(
       isMe: true,
-      text: "Se foder mlk",
+      text: "I'm fine, how are you?",
       time: "11:00 am",
     ),
     Message(
       isMe: false,
-      text: "Ta em casa?",
-      time: "11:01 am",
-    ),
-    Message(
-      isMe: false,
-      text: "Bora vava",
-      time: "11:01 am",
+      text: "Hey, how are you doing?",
+      time: "10:00 am",
     ),
     Message(
       isMe: true,
-      text: "Mec, to entrando",
-      time: "11:03 am",
+      text: "I'm fine, how are you?",
+      time: "11:00 am",
     ),
     Message(
       isMe: false,
-      text: "Anda logo",
-      time: "11:04 am",
+      text: "Hey, how are you doing?",
+      time: "10:00 am",
     ),
     Message(
       isMe: true,
-      text: "Calma Porra",
-      time: "11:05 am",
+      text: "I'm fine, how are you?",
+      time: "11:00 am",
     ),
     Message(
       isMe: false,
-      text: "kkkk",
-      time: "11:06 am",
+      text: "Hey, how are you doing?",
+      time: "10:00 am",
     ),
     Message(
       isMe: true,
-      text: "JOGO MUITOOOO",
-      time: "11:15 am",
+      text: "I'm fine, how are you?",
+      time: "11:00 am",
     ),
-    Message(
-      isMe: false,
-      text: "Fraco",
-      time: "11:17 am",
-    ),
-    Message(
-      isMe: false,
-      text: "Pinou muito",
-      time: "11:16 am",
-    ),
-    Message(
-      isMe: true,
-      text: "Te carreguei verme",
-      time: "11:17 am",
-    ),
-    Message(
-      isMe: false,
-      text: "seu cu, mó pesado você",
-      time: "11:18 am",
-    ),
-    Message(
-      isMe: true,
-      text: "Mochila do caralho",
-      time: "11:19 am",
-    ),
-    Message(
-      isMe: false,
-      text: "Tua mãe aquela gorda",
-      time: "11:20 am",
-    ),
+    // Message(
+    //   isMe: false,
+    //   text: "Ta em casa?",
+    //   time: "11:01 am",
+    // ),
+    // Message(
+    //   isMe: false,
+    //   text: "Bora vava",
+    //   time: "11:01 am",
+    // ),
+    // Message(
+    //   isMe: true,
+    //   text: "Mec, to entrando",
+    //   time: "11:03 am",
+    // ),
+    // Message(
+    //   isMe: false,
+    //   text: "Anda logo",
+    //   time: "11:04 am",
+    // ),
+    // Message(
+    //   isMe: true,
+    //   text: "Calma Porra",
+    //   time: "11:05 am",
+    // ),
+    // Message(
+    //   isMe: false,
+    //   text: "kkkk",
+    //   time: "11:06 am",
+    // ),
+    // Message(
+    //   isMe: true,
+    //   text: "JOGO MUITOOOO",
+    //   time: "11:15 am",
+    // ),
+    // Message(
+    //   isMe: false,
+    //   text: "Fraco",
+    //   time: "11:17 am",
+    // ),
+    // Message(
+    //   isMe: false,
+    //   text: "Pinou muito",
+    //   time: "11:16 am",
+    // ),
+    // Message(
+    //   isMe: true,
+    //   text: "Te carreguei verme",
+    //   time: "11:17 am",
+    // ),
+    // Message(
+    //   isMe: false,
+    //   text: "seu cu, mó pesado você",
+    //   time: "11:18 am",
+    // ),
+    // Message(
+    //   isMe: true,
+    //   text: "Mochila do caralho",
+    //   time: "11:19 am",
+    // ),
+    // Message(
+    //   isMe: false,
+    //   text: "Tua mãe aquela gorda",
+    //   time: "11:20 am",
+    // ),
   ];
 }
