@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/pages/login/login_page.dart';
 import 'package:whatsapp_clone/shared/widgets/custom_button.dart';
 import 'package:whatsapp_clone/shared/widgets/custom_text.dart';
 import 'package:whatsapp_clone/utils/custom_colors.dart';
@@ -43,7 +44,8 @@ class LandingPage extends StatelessWidget {
             MainButton(
               margin: const EdgeInsets.symmetric(horizontal: 30),
               text: 'Aceitar e continuar'.toUpperCase(),
-              onPressed: () {},
+              onPressed: () =>
+                  Navigator.pushNamed(context, LoginPage.routeName),
             ),
             SizedBox(height: constraints.maxHeight / 20),
           ],

@@ -2,10 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/firebase_options.dart';
 import 'package:whatsapp_clone/pages/landing/landing_page.dart';
-import 'package:whatsapp_clone/pages/mobile/mobile_layout.dart';
-import 'package:whatsapp_clone/pages/web/web_layout.dart';
+import 'package:whatsapp_clone/router.dart';
 import 'package:whatsapp_clone/utils/custom_colors.dart';
-import 'package:whatsapp_clone/utils/responsive_layout.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,8 +19,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'WhatsApp UI',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark()
-          .copyWith(scaffoldBackgroundColor: CustomColors.backgroundColor),
+      theme: ThemeData.dark().copyWith(
+          scaffoldBackgroundColor: CustomColors.backgroundColor,
+          appBarTheme: const AppBarTheme(color: CustomColors.appBarColor)),
+      onGenerateRoute: (settings) => generateRoute(settings),
       home: const LandingPage(),
     );
   }
